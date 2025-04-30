@@ -1,0 +1,285 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fbfd;
+  color: #343a40;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* styling for navbar logo*/
+.logo-text {
+  font-family:'Pacifico' ,'cursive','Poppins', sans-serif;
+  font-size: 1.8rem;
+  color: #ffda79;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand img {
+  filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.3));
+  width: 50px;
+  height: auto;
+}
+
+.navbar-brand:hover .logo-text {
+transform: scale(1.05);
+
+}
+
+/* Premium Navbar Styling */
+.custom-navbar {
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* premium gradient */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 8px 0;
+}
+
+.custom-navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.custom-navbar .nav-link {
+  color: #f0f0f0 !important;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  color: #ffd700 !important; /* gold highlight */
+  border-bottom: 2px solid #ffd700;
+}
+
+/* signup and login button */
+.btn-gradient {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+  transform: scale(1.05);
+  color: white;
+}
+/* styling for signup page*/
+.signup-heading {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.login-heading {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Signup Button - on Signup page Premium Style */
+.btn-signup {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 12px;
+  border-radius: 50px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(101, 72, 255, 0.4);
+  letter-spacing: 0.5px;
+}
+
+.btn-signup:hover {
+  background: linear-gradient(135deg, #5f2c82 0%, #49a09d 100%);
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(79, 62, 255, 0.5);
+}
+
+/*Login button on login page*/
+
+.btn-login {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 12px;
+  border-radius: 50px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(101, 72, 255, 0.4);
+  letter-spacing: 0.5px;
+}
+
+.btn-login:hover {
+  background: linear-gradient(135deg, #5f2c82 0%, #49a09d 100%);
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(79, 62, 255, 0.5);
+}
+
+
+
+/* Premium Navbar Styling  for pets.html*/
+.premium-navbar {
+  background: linear-gradient(to right, #2a5298, #1e3c72);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.premium-navbar .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.premium-navbar .nav-link:hover,
+.premium-navbar .nav-link.active {
+  color: #ffda79;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/hero-bg.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.hero h1 {
+  font-size: 5px;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 15px;
+}
+
+/* Premium Button Styling */
+.btn-primary {
+  background: linear-gradient(to right, #547792, #1e3c72);
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  box-shadow: 0 4px 12px rgba(42, 82, 152, 0.4);
+}
+
+/* Outline Button */
+.btn-outline-primary {
+  border-color: #2a5298;
+  color: #2a5298;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+  background-color: #2a5298;
+  color: #fff;
+}
+
+.filter-btn {
+  padding: 8px 20px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background-color: #94B4C1;
+  color: #fff;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #1e3c72;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 70px;
+  font-size: 0.95rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Form Styles */
+form input, form textarea {
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #70aef0;
+  box-shadow: 0 0 0 0.2rem rgba(179, 212, 247, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}

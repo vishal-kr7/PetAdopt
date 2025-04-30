@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pet Details - PetAdopt</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar (same as other pages) -->
+  <nav class="navbar navbar-expand-lg navbar-dark premium-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">PetAdopt</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pets.html">Pets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adopt.html">Adopt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Pet Details Section -->
+  <div class="container my-5" id="petDetails">
+    <div class="row">
+      <div class="col-md-6">
+        <img id="petImage" class="img-fluid" alt="Pet Image">
+      </div>
+      <div class="col-md-6">
+        <h2 id="petName"></h2>
+        <p id="petAge"></p>
+        <p id="petBreed"></p>
+        <p id="petDescription"></p>
+        <div id="adoptButtons"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="pet-data.js"></script>
+  <script src="pet-details.js"></script>
+
+  <footer>
+    <p>&copy; 2025 PetAdopt. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
