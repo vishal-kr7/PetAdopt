@@ -26,6 +26,9 @@ app.use('/api/adoptions', adoptionRoutes);
 const petRoutes = require('./routes/petRoutes');
 app.use('/api/pets', petRoutes);
 
+const userRoutes = require('./routes/userRoutes');
+app.use('/api/users', userRoutes);    //admin
+
 // Signup Route
 app.post('/api/auth/signup', async (req, res) => {
   const { username, email, password } = req.body;

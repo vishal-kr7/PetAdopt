@@ -2,6 +2,8 @@ const express = require('express');
 const bcrypt = require('bcryptjs');
 const User = require('../models/User');  // Assuming you have a User model
 
+const { getAllUsers } = require('../controllers/userController');
+
 const router = express.Router();
 
 // Signup route
@@ -35,5 +37,8 @@ router.post('/signup', async (req, res) => {
     res.status(500).json({ message: 'Server error' });
   }
 });
+
+
+router.get('/users', getAllUsers);  //admin
 
 module.exports = router;
