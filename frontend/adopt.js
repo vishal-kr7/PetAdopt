@@ -25,7 +25,7 @@ form.addEventListener('submit', async (e) => {
   console.log('Submitting Adoption Request:', adoptionData); // Debug
 
   try {
-    const response = await fetch('http://localhost:5000/api/adoptions', {
+    const response = await fetch('https://pet-adopt-uz4v.onrender.com/api/adoptions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

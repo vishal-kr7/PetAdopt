@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //   loadingSpinner.style.display = 'none';  // Hide spinner after loading
 
 //   if (petId) {
-//     fetch(`http://localhost:5000/api/pets/${petId}`)
+//     fetch(`https://pet-adopt-uz4v.onrender.com/api/pets/${petId}`)
 //       .then(response => response.json())
 //       .then(pet => {
 //         if (pet) {
