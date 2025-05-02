@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
         if (response.ok) {
           alert('Login successful!');
-          window.location.href = '/frontend/index.html';  // Redirect to  homepage
+          window.location.href = '../index.html';  // Redirect to  homepage
         } else {
           alert('Invalid credentials. Please try again.');
         }
